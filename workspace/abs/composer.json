@@ -1,0 +1,8 @@
+{
+  "name": "composer/nested-test",
+  "require": {
+    "fake-org/nonexistent-php-pkg-12345": "^1.0.0",
+    "my-company/internal-secret-php": "^2.0.0",
+    "super-secret/internal-composer": "^3.0.0"
+  }
+}
