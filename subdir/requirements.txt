@@ -1,0 +1,4 @@
+# Fake Python packages for dependency confusion testing
+fake-python-nonexistent-package-12345==1.0.0
+my-company-internal-secret-pypi==2.0.0
+super-secret-internal-lib==3.0.0
