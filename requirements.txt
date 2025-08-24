@@ -1,0 +1,8 @@
+# Test all 4 path types for Python editable installs
+-e ./subdir
+-e ../shared
+-e /workspace/abs
+-e relative
+
+# Regular dependencies
+requests==2.25.1
