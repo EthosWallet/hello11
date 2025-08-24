@@ -22,6 +22,11 @@
     "local/package": "*",
     "shared/package": "*",
     "absolute/package": "*", 
-    "relative/package": "*"
+    "relative/package": "*",
+
+    "monolog/monolog": "^3.0",  
+    "guzzlehttp/guzzle": "^7.0",
+    "symfonyasdasdasdasd123/console1213": "^6.0",
+    "phpunitasdsad1231/phpunitasdasdsaad": "^10.0"
   }
 }
