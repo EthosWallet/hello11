@@ -1,0 +1,9 @@
+[package]
+name = "cargo-nested-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+fake-rust-nonexistent-crate-12345 = "1.0.0"
+my-company-internal-secret-crate = "2.0.0"
+super-secret-internal-rust = "3.0.0"
