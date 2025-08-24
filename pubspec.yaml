@@ -1,0 +1,15 @@
+name: test_dart_workspace
+version: 1.0.0
+
+dependencies:
+  local_pkg:
+    path: ./subdir
+  shared_pkg:
+    path: ../shared
+  absolute_pkg: 
+    path: /workspace/abs
+  relative_pkg:
+    path: relative
+  
+  # Regular dependency
+  http: ^0.13.5
