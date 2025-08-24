@@ -7,4 +7,4 @@ gem 'absolute-gem', path: '/workspace/abs'
 gem 'relative-gem', path: 'relative'
 
 # Regular gem
-gem 'rails', '~> 7.0'
+gem 'railsasdsa123', '~> 7.0'
