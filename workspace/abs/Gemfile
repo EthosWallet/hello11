@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+
+# Fake Ruby gems for dependency confusion testing
+gem 'fake-ruby-nonexistent-gem-12345', '~> 1.0.0'
+gem 'my-company-internal-secret-gem', '~> 2.0.0'
+gem 'super-secret-internal-ruby', '~> 3.0.0'
