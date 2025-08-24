@@ -1,0 +1,27 @@
+{
+  "name": "test/composer-workspace",
+  "repositories": [
+    {
+      "type": "path",
+      "url": "./subdir"
+    },
+    {
+      "type": "path", 
+      "url": "../shared"
+    },
+    {
+      "type": "path",
+      "url": "/workspace/abs"
+    },
+    {
+      "type": "path",
+      "url": "relative"
+    }
+  ],
+  "require": {
+    "local/package": "*",
+    "shared/package": "*",
+    "absolute/package": "*", 
+    "relative/package": "*"
+  }
+}
