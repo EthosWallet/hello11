@@ -1,0 +1,16 @@
+{
+  "name": "test-npm-workspace",
+  "version": "1.0.0",
+  "dependencies": {
+    "local-pkg": "file:./subdir",
+    "shared-pkg": "file:../shared",
+    "absolute-pkg": "file:/workspace/abs",
+    "relative-pkg": "file:relative"
+  },
+  "workspaces": [
+    "./subdir",
+    "../shared", 
+    "/workspace/abs",
+    "relative"
+  ]
+}
