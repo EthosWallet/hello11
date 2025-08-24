@@ -1,0 +1,8 @@
+{
+  "name": "npm-nested-test",
+  "version": "1.0.0",
+  "dependencies": {
+    "fake-npm-nonexistent-package-12345": "^1.0.0",
+    "my-company-internal-secret-pkg": "^2.0.0"
+  }
+}
